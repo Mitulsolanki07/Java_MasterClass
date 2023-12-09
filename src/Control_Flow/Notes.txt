@@ -1,0 +1,76 @@
+switch case , case executes when input value is equal to case value i.e.
+switch(value : 10){
+    case 10:
+        System.out.print("10");
+        break;
+}
+!IMPORTANT : cannot use long, float, double, boolean or their wrappers. in switch case
+break is use after every case as it means end of switch code block,
+any code after the case label where there was a match found, will be executed, until a break statement or the end of the switch statement occurs.
+default case executes on no case value match found
+
+-------------- do while loop iteration --------------
+
+int i=1;
+do{
+    int value = i;
+    System.out.println("i value"+i);
+    switch (value){
+        case 0:
+            System.out.println("0");
+            break;
+        case 1:
+            System.out.println("1");
+            break;
+        case 2:
+            System.out.println("2");
+            break;
+        default:
+            System.out.println("was not 0,1, or 2");
+            break;
+    }
+    i++;
+}while(i<1);
+
+-------------- while loop iteration --------------
+int i=1;
+while(i<4){
+    int value = i;
+    System.out.println("i value"+i);
+    switch (value){
+        case 0:
+            System.out.println("0");
+            break;
+        case 1:
+            System.out.println("1");
+            break;
+        case 2:
+            System.out.println("2");
+            break;
+        default:
+            System.out.println("was not 0,1, or 2");
+            break;
+    }
+    i++;
+}
+
+-------------- for loop iteration --------------
+
+for(int i=0; i<4; i++){
+    int value = i;
+    System.out.println("i value"+i);
+    switch (value){
+        case 0:
+            System.out.println("0");
+            break;
+        case 1:
+            System.out.println("1");
+            break;
+        case 2:
+            System.out.println("2");
+            break;
+        default:
+            System.out.println("was not 0,1, or 2");
+            break;
+    }
+}
