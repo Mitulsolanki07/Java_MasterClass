@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class CalcDurationInString {
     public static void main(String[] args) {
         System.out.println("HH:MM:SS => " + getDurationString(3945));

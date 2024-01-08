@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class EqualityPrinter {
     public static void main(String[] args) {
         printEqual(1, 1, 1);

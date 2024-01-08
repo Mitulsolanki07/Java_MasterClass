@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class AreaCalculator {
     public static void main(String[] args) {
         System.out.println("Calculate area of circle: " + area(5.0));

@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class DecimalComparator {
     public static void main(String[] args) {
         System.out.println("is Decimal Same : " + areEqualByThreeDecimalPlaces(-3.1756, -3.175));

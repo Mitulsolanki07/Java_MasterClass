@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class EqualSumChecker {
     public static void main(String[] args) {
         System.out.println("A + B == C :" + hasEqualSum(1, 1, 1));

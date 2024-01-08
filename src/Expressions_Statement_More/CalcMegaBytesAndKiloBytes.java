@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class CalcMegaBytesAndKiloBytes {
     public static void main(String[] args) {
         printMegaBytesAndKiloBytes(5000);

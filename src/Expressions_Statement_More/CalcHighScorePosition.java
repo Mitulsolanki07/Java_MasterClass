@@ -1,3 +1,5 @@
+package Expressions_Statement_More;
+
 public class CalcHighScorePosition {
     public static void main(String[] args) {
 //    1500,1000,500,100,25
