@@ -3,6 +3,8 @@ package LoopExercise;
 public class sharedDigit {
     public static void main(String[] args) {
         int a = 12, b = 23;
+        int c = 0;
+        System.out.println("C is " + c);
         System.out.println("hasSharedDigits for number a: " + a + " , b: " + b + " = " + hasSharedDigit(a, b));
         a = 9;
         b = 99;
