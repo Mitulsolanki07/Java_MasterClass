@@ -14,11 +14,12 @@ public class Main {
         System.out.println("divide= " + calculator.getDivisionResult());
 //         Bank Account
         BankAccount bankAcc = new BankAccount();
-        bankAcc.setAccountNumber("09876A");
-        bankAcc.setAccountBalance(100.0d);
-        bankAcc.setCustomerEmail("CustomerA@gmail.com");
-        bankAcc.setCustomerName("Customer A");
-        bankAcc.setPhoneNumber("+91 7041 1234 59");
+//        BankAccount bankAcc = new BankAccount("09876A","Customer A","CustomerA@gmail.com","+91 7041 1234 59",100.0d);
+//        bankAcc.setAccountNumber("09876A");
+//        bankAcc.setAccountBalance(100.0d);
+//        bankAcc.setCustomerEmail("CustomerA@gmail.com");
+//        bankAcc.setCustomerName("Customer A");
+//        bankAcc.setPhoneNumber("+91 7041 1234 59");
         bankAcc.showAccountDetails();
         bankAcc.DepositFunds(22500);
         bankAcc.showAccountDetails();
