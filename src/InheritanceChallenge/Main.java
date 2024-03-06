@@ -18,6 +18,20 @@ public class Main {
         System.out.println(Emmie);
         System.out.println("Age: " + Emmie.getAge());
         System.out.println("Emmie Paycheck $=" + Emmie.collectPay());
-        System.out.println("Emmie Double Pay check $=" + Emmie.getDoublePay());
+        System.out.println("Emmie Double Pay check $=\"" + Emmie.getDoublePay() + "\"");
+        System.out.println("""
+                Print Hello world
+                    \u2022Indentation
+                        \u2022SubIndentation
+                """);
+        System.out.println();
+        System.out.println("Print Hello World\n\t Indentation\n\t\t SubIndentation");
+
+        String formattedString = String.format("You age is %d", Emmie.getAge());
+        System.out.println(formattedString);
+        System.out.printf("You age is %.2f%n", (float) Emmie.getAge());
+        for (int i = 1; i < 1000; i = i * 10) {
+            System.out.printf("i is %4d%n", i);
+        }
     }
 }
