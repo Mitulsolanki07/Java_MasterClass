@@ -30,4 +30,8 @@ public class Animal {
     public void makeNoise(){
         System.out.println(type + " make some kind of noise.");
     }
+
+    public static void itIsStaticMethod(String msg) {
+        System.out.println("Hello World! " + msg);
+    }
 }

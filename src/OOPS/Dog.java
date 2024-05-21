@@ -6,8 +6,12 @@ public class Dog extends Animal{
 
     public Dog() {
         this("Poodles",25,"Bat Ear","Curled Tail");
+        itIsStaticMethod("Call from Dog subclass");
     }
 
+    public static void itIsStaticMethod(String msg) {
+        System.out.println("Hello i have override static method of parent class");
+    }
     @Override
     public String toString() {
         return "Dog{" +
